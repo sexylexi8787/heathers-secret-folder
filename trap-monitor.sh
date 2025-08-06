@@ -6,7 +6,7 @@ UPLOAD_DIR="/var/root/trap-uploads"
 mkdir -p "$LOG_DIR" "$UPLOAD_DIR"
 
 ICLOUD_EMAIL="infinitelyenlighten@icloud.com"
-ICLOUD_PASS="nfhj-cryh-awrf-ezgf"
+ICLOUD_PASS="hwce-qgbu-gmhn-gudq"
 
 while true; do
   TIMESTAMP=$(date +%s)
